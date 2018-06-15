@@ -13,7 +13,7 @@
 
     <parent>
         <groupId>io.thelen</groupId>
-        <artifactId>spring-cloud-gateway-sample-parent</artifactId>
+        <artifactId>spring-cloud-sample-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>..</relativePath> <!-- lookup parent from repository -->
     </parent>
