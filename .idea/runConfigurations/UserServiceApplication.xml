@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="user-service" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="io.thelen.userservice.UserServiceApplication" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <method />
+  </configuration>
+</component>

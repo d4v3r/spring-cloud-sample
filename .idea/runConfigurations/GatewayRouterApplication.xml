@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="GatewayRouterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="gateway" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springcloudgatewaysample.GatewayRouterApplication" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <method />
+  </configuration>
+</component>

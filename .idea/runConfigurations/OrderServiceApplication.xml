@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="order-service" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="io.thelen.orderservice.OrderServiceApplication" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <method />
+  </configuration>
+</component>

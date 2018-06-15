@@ -1,0 +1,28 @@
+eureka:
+  client:
+    registerWithEureka: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+spring:
+  application:
+    name: router
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          filters:
+            - name: RewritePath
+              args:
+                regexp: "'/' + serviceId.toLowerCase() + '/(?<remaining>.*)'"
+                replacement: "'/$\\{remaining}'"
+
+          predicates:
+            - name: Path
+              args:
+                pattern: "'/'+serviceId.toLowerCase()+'/**'"
