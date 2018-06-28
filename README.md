@@ -8,6 +8,10 @@ Meant to demonstrate how to use Spring Cloud components.  Currently utilizes
 * [Actuator](https://spring.io/guides/gs/actuator-service/)
 * [Sleuth](https://cloud.spring.io/spring-cloud-sleuth/)
 
+## System Interaction Diagram
+
+![](system-diagram.png)
+
 ## Running the Sample
 ### Install Spring Cloud Command Line And Run Eureka Server Locally
 See the [Spring Cloud CLI](http://cloud.spring.io/spring-cloud-cli/) for more specific details.
