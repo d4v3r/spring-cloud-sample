@@ -3,7 +3,7 @@ applications:
 - name: bet-user-service
   memory: 1G
   disk_quota: 500M
-  instances: 1
+  instances: 2
   path: ../target/user-service-0.0.1-SNAPSHOT.jar
   buildpack: java_buildpack
   services:
