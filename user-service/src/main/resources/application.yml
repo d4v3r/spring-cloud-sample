@@ -17,3 +17,19 @@ spring:
   jpa:
     hibernate.ddl-auto: update
     database-platform: org.hibernate.dialect.H2Dialect
+
+---
+spring:
+  profiles: blue
+
+eureka:
+  instance:
+    instance-id: blue
+
+---
+spring:
+  profiles: green
+
+eureka:
+  instance:
+    instance-id: green
