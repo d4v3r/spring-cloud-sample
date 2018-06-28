@@ -5,6 +5,7 @@ Meant to demonstrate how to use Spring Cloud components.  Currently utilizes
 
 * [Spring Cloud Gateway 2](https://cloud.spring.io/spring-cloud-gateway/)
 * [Eureka](https://cloud.spring.io/spring-cloud-netflix/)
+* [Hystrix](https://cloud.spring.io/spring-cloud-netflix/)
 * [Actuator](https://spring.io/guides/gs/actuator-service/)
 * [Sleuth](https://cloud.spring.io/spring-cloud-sleuth/)
 
@@ -13,15 +14,18 @@ Meant to demonstrate how to use Spring Cloud components.  Currently utilizes
 ![](system-diagram.png)
 
 ## Running the Sample
-### Install Spring Cloud Command Line And Run Eureka Server Locally
+### Install Spring Cloud Command Line And Run Eureka Server and Hystrix Dashboard Locally
 See the [Spring Cloud CLI](http://cloud.spring.io/spring-cloud-cli/) for more specific details.
 
 On MacOS if you have  [Homebrew](https://brew.sh/) installed:
 ```bash
 $ brew install spring
 $ spring install org.springframework.cloud:spring-cloud-cli:1.4.0.RELEASE
-$ spring cloud eureka 
+$ spring cloud eureka hystrixdashboard
 ```
+
+Open the [Eureka Server](http://localhost:8761) and [Hystrix Dashboard](http://localhost:7979/) 
+in your web browser.
 
 ## Checkout And Build Sample 
 ```bash
