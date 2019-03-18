@@ -26,3 +26,5 @@ spring:
             - name: Path
               args:
                 pattern: "'/'+serviceId.toLowerCase()+'/**'"
+  main:
+    allow-bean-definition-overriding: true
