@@ -20,7 +20,7 @@ See the [Spring Cloud CLI](http://cloud.spring.io/spring-cloud-cli/) for more sp
 On MacOS if you have  [Homebrew](https://brew.sh/) installed:
 ```bash
 $ brew install spring
-$ spring install org.springframework.cloud:spring-cloud-cli:1.4.0.RELEASE
+$ spring install org.springframework.cloud:spring-cloud-cli:2.1.0.RELEASE
 $ spring cloud eureka hystrixdashboard
 ```
 
