@@ -13,7 +13,7 @@ applications:
   instances: 1
   memory: 1G
   disk_quota: 1G
-  no-route: true
+  random-route: true
   path: ./order-service/target/order-service-0.0.1-SNAPSHOT.jar
   services:
     - eureka
@@ -23,7 +23,7 @@ applications:
   instances: 1
   memory: 1G
   disk_quota: 1G
-  no-route: true
+  random-route: true
   path: ./user-service/target/user-service-0.0.1-SNAPSHOT.jar
   services:
     - eureka
@@ -33,7 +33,7 @@ applications:
   instances: 1
   memory: 1G
   disk_quota: 1G
-  no-route: true
+  random-route: true
   path: ./product-service/target/product-service-0.0.1-SNAPSHOT.jar
   services:
     - eureka
